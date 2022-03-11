@@ -13,8 +13,59 @@
             <div class="col-1 vh-100" style="background-color:#CC0000">
             </div>
             
-            
-            		
+	    <!-- Content Body Start -->
+            <div class="col">
+            <div class="container" style="width:60%">
+            	<h3 class="mt-5 text-center fw-bold fs-1">Tutoring Schedule</h3>
+            	<div class="m-5 p-5 container-container border border-2 border-dark rounded shadow-lg">
+            		<div class="row">
+            			<div class="ms-5 col-1 border border-2 border-dark shadow-lg" style="width:200px;height:200px">Picture cannot be loaded</div>
+            			<div class="ms-5 col border border-2 border-dark shadow-lg rounded">
+            				<h2 class="ms-3 mt-3 text-left fs-2">Monday</h2>
+            				<!-- span class="ms-3 fs-4"><a href="mailto:sabotte@ilstu.edu">sabotte@ilstu.edu</a></span> -->
+            				<p class="mt-4 ms-3 fs-4">2:00PM - 5:00PM</p>
+            			</div>
+            		</div>
+            		<div class="row mt-5">
+            			<div class="ms-5 col-1 border border-2 border-dark shadow-lg" style="width:200px;height:200px">Picture cannot be loaded</div>
+            			<div class="ms-5 col border border-2 border-dark shadow-lg rounded">
+            				<h2 class="ms-3 mt-3 text-left fs-2">Tuesday</h2>
+            				<!-- span class="ms-3 fs-4"><a href="mailto:telalei@ilstu.edu">telalei@ilstu.edu</a></span> -->
+            				<p class="mt-4 ms-3 fs-4">9:00AM - 5:00PM</p>
+            			</div>
+            		</div>
+			<div class="row mt-5">
+            			<div class="ms-5 col-1 border border-2 border-dark shadow-lg" style="width:200px;height:200px">Picture cannot be loaded</div>
+            			<div class="ms-5 col border border-2 border-dark shadow-lg rounded">
+            				<h2 class="ms-3 mt-3 text-left fs-2">Wednesday</h2>
+            				<!-- span class="ms-3 fs-4"><a href="mailto:tlplick@ilstu.edu">tlplick@ilstu.edu</a></span> -->
+            				<p class="mt-4 ms-3 fs-4">2:00AM - 5:00PM</p>
+            			</div>
+            		</div>
+			<div class="row mt-5">
+            			<div class="ms-5 col-1 border border-2 border-dark shadow-lg" style="width:200px;height:200px">Picture cannot be loaded</div>
+            			<div class="ms-5 col border border-2 border-dark shadow-lg rounded">
+            				<h2 class="ms-3 mt-3 text-left fs-2">Thursday</h2>
+            				<!-- span class="ms-3 fs-4"><a href="mailto:telalei@ilstu.edu">telalei@ilstu.edu</a></span> -->
+            				<p class="mt-4 ms-3 fs-4">11:00AM - 5:00PM</p>
+            			</div>
+            		</div>
+			<div class="row mt-5">
+            			<div class="ms-5 col-1 border border-2 border-dark shadow-lg" style="width:200px;height:200px">Picture cannot be loaded</div>
+            			<div class="ms-5 col border border-2 border-dark shadow-lg rounded">
+            				<h2 class="ms-3 mt-3 text-left fs-2">Friday</h2>
+            				<!-- span class="ms-3 fs-4"><a href="mailto:tlplick@ilstu.edu">tlplick@ilstu.edu</a></span> -->
+            				<p class="mt-4 ms-3 fs-4">12:00PM - 5:00PM</p>
+            			</div>
+            		</div>
+            		<div class="row mt-5">
+            			<div class="ms-5 col-1 border border-2 border-dark shadow-lg" style="width:200px;height:200px">Picture cannot be loaded</div>
+            			<div class="ms-5 col border border-2 border-dark shadow-lg rounded">
+            				<h2 class="ms-3 mt-3 text-left fs-2">Saturday</h2>
+            				<!-- span class="ms-3 fs-4"><a href="mailto:tlplick@ilstu.edu">tlplick@ilstu.edu</a></span> -->
+            				<p class="mt-4 ms-3 fs-4">9:00AM - 2:00PM</p>
+            			</div>
+            		</div>
             	
          </div>
       </div>
