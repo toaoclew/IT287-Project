@@ -1,8 +1,13 @@
-// Get img from ID
-image = document.getElementById("textbookImg"); //Textbook image from homepage
+let navbar = document.getElementById("navItems");
+let item = navbar.getElementsByTagName("li");
 
-function onClick(){
-	//Create function to enlarge the image when clicked
-	image.style.transform = "scale(1.5)"; //Scales image 1.5x
-	image.style.transition = "transform 0.25s ease"; //Sets a transition when clicked
+for(let i = 0; i < item.length; i++){
+	item[i].addEventListener("mouseenter", function(event){
+	//Adds background color
+	event.target.style.backgroundColor = "black";	
+	})
+	item[i].addEventListener("mouseout", function(){
+	//Removes background color
+	item[i].removeAttribute("style");
+	})
 }
