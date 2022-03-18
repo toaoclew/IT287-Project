@@ -13,10 +13,10 @@
     }
     
     /* Handles Left Padding */
-   #leftPaddingGradient {
+    #leftPaddingGradient {
     	background: rgb(0,0,0);
-		background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(166,0,13,1) 40%, rgba(255,0,0,1) 100%);
-    }
+ 		background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(166,0,13,1) 40%, rgba(255,0,0,1) 100%);
+     }
    
    /* Handles Navbar Padding */
    #navbarGradient {
@@ -28,13 +28,8 @@
    <body>
       <!-- Left Hand Padding Start -->
       <div class="container-full">
-         <div class="row">
-            <div id="leftPaddingGradient" class="col-1"><br>
-            </div>
-            <!-- Content Start -->
-            <div class="col-11 g-0">
-               
-               <!-- Navigation Bar Start -->
+         
+         <!-- Navigation Bar Start -->
 				<nav id="navbarGradient" class="navbar navbar-expand-lg bg-light">
 					<div class="container-fluid">
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -59,34 +54,94 @@
 						</div>
 					</div>
 				</nav>
-
+         
+         <div class="row">
+            <div id="leftPaddingGradient" class="col-1"><br>
+            	<div class="mt-5 shadow">
+            			<nav>
+            				<ul class="nav">
+            					<li class="nav-item">
+            						<a href="#">
+            							<span class="position-relative btn border border-3 border-dark rounded-pill" style="background-color:white;width:150px;left:-15px;">Instructors</span>
+            						</a>
+            					</li>
+            					<li class="nav-item pt-1">
+            						<a href="#">
+            							<span class="position-relative btn border border-3 border-dark rounded-pill" style="background-color:white;width:150px;left:-15px;">Lab Instructors</span>
+            						</a>
+            					</li>
+            					<li class="nav-item pt-1">
+            						<a href="#">
+            							<span class="position-relative btn border border-3 border-dark rounded-pill" style="background-color:white;width:150px;left:-15px;">Debug Schedule</span>
+            						</a>
+            					</li>
+            					<li class="nav-item pt-1">
+            						<a href="#">
+            							<span class="position-relative btn border border-3 border-dark rounded-pill" style="background-color:white;width:150px;left:-15px;">Video Library</span>
+            						</a>
+            					</li>
+            					<li class="nav-item pt-1">
+            						<a href="#">
+            							<span class="position-relative btn border border-3 border-dark rounded-pill" style="background-color:white;width:150px;left:-15px;">Resources</span>
+            						</a>
+            					</li>
+            				</ul>
+            			</nav>
+            	</div>
+            </div>
+            <!-- Content Start -->
+            <div class="col-11 g-0">
 				<div class="container-fluid">
                   <div class="mt-5 container-fluid text-center">
                      <h1 class="fw-bold">Structured Problem Solving Using the Computer</h1>
                   </div>
                   <div class="m-4 border border-1 border-dark"></div>
                </div>
-               <!-- Start Course Description -->
-               <div class="m-5 container-full text-center">
-                  <h3 class="fw-bold fs-3 pb-1">Course Description</h3>
-                  <span class="fs-5">This course is designed to introduce you to the basic problem solving and program design skills that are used to create computer programs. Topics include problem solving strategies, program design strategies and tools, program testing, file manipulation, common algorithms used in computer programs, user interfaces, and the syntax of a high level programming language.</span>
-                  <p class="fs-5 pt-3 fw-bold fs-5">Pre-Requisite: <a href="https://coursefinder.illinoisstate.edu/mat/104/">MAT 104</a></p>
-               </div>
-               
-               <!-- Start Course Completion Summary -->
-               <div class="m-5 container-full text-left">
-                  <h3 class="fw-bold fs-3 pb-1">Course Completion Summary</h3>
-                  <p class="fs-6"></p>
-                  <ol start="1" type="1">
-                     <li class="ms-5 fs-5">Be able to describe classical problem solving strategies and use them in solving problems that can be implemented on a computer.</li>
-                     <li class="ms-5 fs-5">Be able to use accepted program design strategies and tools to design and implement a solution for a problem on a computer.</li>
-                     <li class="ms-5 fs-5">Understand the various contexts in which computer programs are written.</li>
-                     <li class="ms-5 fs-5">Be able to develop appropriate testing procedures for a simple program.</li>
-                     <li class="ms-5 fs-5">Be able to write computer programs in a high level programming language.</li>
-                  </ol>
-               </div>
-               
-               <!-- Start Textbook Information Section -->
+
+				<div class="row">
+					<!-- Start Course Description -->					
+					<div class="col">
+						<div class="m-5 container-full text-left ps-5">
+							<h3 class="fw-bold fs-3 pb-1">Course Description</h3>
+							<span class="fs-5">This course is designed to introduce
+								you to the basic problem solving and program design skills that
+								are used to create computer programs. Topics include problem
+								solving strategies, program design strategies and tools, program
+								testing, file manipulation, common algorithms used in computer
+								programs, user interfaces, and the syntax of a high level
+								programming language.</span>
+							<p class="fs-5 pt-3 fw-bold fs-5">
+								Pre-Requisite: <a
+									href="https://coursefinder.illinoisstate.edu/mat/104/">MAT
+									104</a>
+							</p>
+						</div>
+
+						<!-- Start Course Completion Summary -->
+						<div class="m-5 container-full text-left ps-5">
+							<h3 class="fw-bold fs-3 pb-1">Course Completion Summary</h3>
+							<ol start="1" type="1">
+								<li class="ms-5 fs-5">Be able to describe classical problem
+									solving strategies and use them in solving problems that can be
+									implemented on a computer.</li>
+								<li class="ms-5 fs-5">Be able to use accepted program
+									design strategies and tools to design and implement a solution
+									for a problem on a computer.</li>
+								<li class="ms-5 fs-5">Understand the various contexts in
+									which computer programs are written.</li>
+								<li class="ms-5 fs-5">Be able to develop appropriate
+									testing procedures for a simple program.</li>
+								<li class="ms-5 fs-5">Be able to write computer programs in
+									a high level programming language.</li>
+							</ol>
+						</div>
+					</div>
+					<div class="col p-5">
+						<img class="img-fluid mx-auto shadow shadow-rounded shadow-lg" src="../images/isuseal.jpg">
+					</div>
+				</div>
+
+				<!-- Start Textbook Information Section -->
                <div class="row">
                	<!-- Textbook Picture -->
                	<div style="align-items:center;" class="container m-5 d-flex justify-content col-5 text-center g-0">
